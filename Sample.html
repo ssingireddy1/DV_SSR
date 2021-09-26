@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+    input[type=text] {
+        width: 100%;
+        padding: 20px;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+
+
+
+    hr {
+        border: 1px solid grey;
+        margin-bottom: 35px;
+    }
+
+    button {
+        background-color: #800080;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 25%;
+        opacity: 0.8;
+    }
+
+
+    .container {
+        padding-left: 450px;
+        padding-right: 450px;
+    }
+</style>
+<body>
+
+    <form action="/action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+            <h1>Sample Form</h1>
+            <h4>Choose a topic, and research interest for the individual visualization project.</h4>
+            <hr>
+
+            <label for="email">Email*</label>
+            <input type="text" placeholder="Your email" name="email" required><br><br>
+
+            <label for="fname">Firstname</label>
+            <input type="text" placeholder="Your answer" name="fname"><br><br>
+
+            <label for="lname">Lastname</label>
+            <input type="text" placeholder="Your answer" name="lname"><br><br>
+
+            <label for="ri">Research Interest (list at least 3) *</label>
+            <input type="text" placeholder="Your answer" name="ri" required><br><br>
+
+            <label for="ptitle">Project Title - (e.g. income vs education US Census) *</label>
+            <input type="text" placeholder="Your answer" name="ptitle" required><br><br>
+
+            <p>Top Skills*</p>
+            <input type="checkbox" id="cb1">
+            <label for="cb1">SQL</label><br>
+            <input type="checkbox" id="cb2">
+            <label for="cb2">Python Programming</label><br>
+            <input type="checkbox" id="cb3">
+            <label for="cb3">Matlab</label><br>
+            <input type="checkbox" id="cb4">
+            <label for="cb4">D3js and Javascript</label><br>
+            <input type="checkbox" id="cb5">
+            <label for="cb5">C# VB.net</label><br>
+            <input type="checkbox" id="cb6">
+            <label for="cb6">PHP</label><br>
+            <input type="checkbox" id="cb7">
+            <label for="cb7">Node.JS</label><br>
+            <input type="checkbox" id="cb8">
+            <label for="cb8">Web design tools (e.g. Wordpress)</label><br>
+            <input type="checkbox" id="cb9">
+            <label for="cb9">HTML and CSS</label><br>
+            <input type="checkbox" id="cb10">
+            <label for="cb10">Excel</label><br>
+            <input type="checkbox" id="cb11">
+            <label for="cb11">PowerBI</label><br>
+            <input type="checkbox" id="cb12">
+            <label for="cb12">Tableau</label><br>
+            <input type="checkbox" id="cb13">
+            <label for="cb13">Other</label><br><br>
+
+            <p>Suggestions or Questions</p>
+            <input type="text" placeholder="Your answer">
+
+            <button type="button" onclick="Submitted!">Submit</button>
+
+
+        </div>
+    </form>
+
+</body>
+</html>
